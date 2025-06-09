@@ -1,0 +1,14 @@
+Description=Blind Sunglasses Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /home/pi5/client/start.sh
+Restart=always
+User=nobody
+WorkingDirectory=/home/pi5/client
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
