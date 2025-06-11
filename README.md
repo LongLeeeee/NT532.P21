@@ -20,7 +20,7 @@ Thiết bị Mắt kính thông minh được sử dụng để hỗ trợ cho n
 
 ## 🔁 Luồng hoạt động
 
-##### 1. Trên Raspberry Pi:
+#### 1. Trên Raspberry Pi:
 
 - Stream video từ camera qua RTSP → MediaMTX Server.
 
@@ -28,7 +28,7 @@ Thiết bị Mắt kính thông minh được sử dụng để hỗ trợ cho n
 
 - Khi người dùng nhấn nút hoặc té ngã → gửi tín hiệu khẩn cấp.
 
-##### 2. Trên Server
+#### 2. Trên Server
 
 - Nhận video stream từ MediaMTX → đưa vào YOLO + DeepSORT → Object tracking.
 
@@ -36,7 +36,7 @@ Thiết bị Mắt kính thông minh được sử dụng để hỗ trợ cho n
 
 - Phát hiện té ngã → so sánh dữ liệu để đưa ra cảnh báo khẩn cấp.
 
-##### 3. Trên App
+#### 3. Trên App
 
 - Nhập thông báo nguy hiểm thông qua Realtime Database của Firebase
 - Hiển thị lịch sử thông báo
