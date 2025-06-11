@@ -23,17 +23,13 @@ Thiết bị Mắt kính thông minh được sử dụng để hỗ trợ cho n
 #### 1. Trên Raspberry Pi:
 
 - Stream video từ camera qua RTSP → MediaMTX Server.
-
 - Đọc dữ liệu cảm biến và gửi về EMQX Broker.
-
 - Khi người dùng nhấn nút hoặc té ngã → gửi tín hiệu khẩn cấp.
 
 #### 2. Trên Server
 
 - Nhận video stream từ MediaMTX → đưa vào YOLO + DeepSORT → Object tracking.
-
 - Kết hợp dữ liệu cảm biến để xác định vật thể và nguy cơ va chạm.
-
 - Phát hiện té ngã → so sánh dữ liệu để đưa ra cảnh báo khẩn cấp.
 
 #### 3. Trên App
