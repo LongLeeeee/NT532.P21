@@ -179,23 +179,6 @@ def main():
             right_ultrasonic_value = right_ultrasonic_2.get_distance()
             left_ultrasonic_value = 200
 
-            #left = False
-            #right = False        
-            #if 0 < left_ultrasonic_value < 100:
-                #left = True
-                #if not is_running:
-                    #threading.Thread(target=speak, args=(f"Obstacle on the left at {int(left_ultrasonic_value)} centimeters.",)).start()
-            #if 0 < right_ultrasonic_value < 100:
-                #right = True  
-                #if not is_running:
-                    #threading.Thread(target=speak, args=(f"Obstacle on the right at {int(right_ultrasonic_value)} centimeters.",)).start()
-
-            # if left and right:
-            #     speak(f"Obstacles on the left and right at {int(left_ultrasonic_value)} and {int(right_ultrasonic_value)} centimeters.")
-            # elif left:
-            #     speak(f"Obstacle on the left at {int(left_ultrasonic_value)} centimeters.")
-            # elif right:
-            #     speak(f"Obstacle on the right at {int(right_ultrasonic_value)} centimeters.")
             print("========================================================================================================================")
             print(f"Left Ultrasonic Distance: {left_ultrasonic_value} cm\nRight Ultrasonic Distance: {right_ultrasonic_value} cm\nAcceleration: {acceloremeter_value:.2f} g")
             is_send_distance = False
