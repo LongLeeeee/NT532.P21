@@ -1,16 +1,20 @@
-# blind_sunglasses
+## Ứng Dụng Giao Diện (App)
 
-A new Flutter project.
+#### 🧭 Chức năng
 
-## Getting Started
+- Nhận cảnh báo nguy hiểm (té ngã, va chạm).
+- Cảnh báo trạng thái: có người ngã, cảnh báo SOS.
+- Lưu lịch các thông báo.
 
-This project is a starting point for a Flutter application.
+#### 📱 Nền tảng
 
-A few resources to get you started if this is your first Flutter project:
+- Mobile App (Flutter)
+- Realtime Database
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+#### Giao diện
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p align="center">
+  <img src="/img/Screenshot_20250611_135538.jpg" alt="Register" width="30%" />
+  <img src="/img/Screenshot_20250611_135420.jpg" alt="Welcome" width="30%" />
+  <img src="/img/Screenshot_20250611_135427.jpg" alt="Login" width="30%" />
+</p>
